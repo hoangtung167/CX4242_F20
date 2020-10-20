@@ -61,9 +61,8 @@ class Network():
         self.first_layer_size = data_input.shape[0]
         self.primary_layer = []
 
-    def run(self):
-        for i in self.first_layer_size:
-            primary_layer.append(Neuron(self.data[]))
+    # Train neural network
+    def run(self, gtruth):
         pass
 
 ###############################################################
